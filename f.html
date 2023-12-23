@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Your Online Checker</title>
+    <link rel="stylesheet" href="f.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="scroll-handle"></div>
+    <header>
+        <div class="logo">
+            <img src="p/bmi.png" alt="BMI Your Online Lifestyle">
+        </div>
+        <ul class="menu">
+            <li><a href="https://www.facebook.com/profile.php?id=61555040963548" target="_blank">Facebook</a></li>
+            <li>
+                <a href="contact.html" target="_blank">Contact Us</a>
+            </li>
+
+        </ul>
+        <div class="search">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+        </div>
+    </header>
+
+    <!-- slider -->
+
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="p/normalweight.jpg">
+                <div class="content">
+                    <p>Normal Weight</p>
+                    <h2>"Maintain the momentum!"</h2>
+                    <p>
+                        You're in a healthy weight range, keep up the balanced lifestyle and
+                        enjoy the energy and well-being it brings.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/Obesity.jpg">
+                <div class="content">
+                    <p>Obesity</p>
+                    <h2>"Progress,Not Perfection"</h2>
+                    <p>
+                        It's never too late to start. Making healthy changes at any point in life can benefit your
+                        health and well-being. Don't wait, begin today!
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/overweigt.jpg">
+                <div class="content">
+                    <p>Overweight</p>
+                    <h2>"Start Small,Dream Big"</h2>
+                    <p>
+                        Every pound counts. Even a modest weight loss can improve your health and make everyday
+                        activities easier. Focus on progress, not perfection.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/underweight.jpg">
+                <div class="content">
+                    <p>Underwweight</p>
+                    <h2>"Fuel Your Potential"</h2>
+                    <p>
+                        Listen to your body. Pay attention to your hunger cues and nourish yourself with healthy foods
+                        to support your well-being.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/healthyfood.jpg">
+                <div class="content">
+                    <p>healthyfoods</p>
+                    <h2>"Eat Well,Live Vibrantly"</h2>
+                    <p>
+                        Food is power, choose wisely. Make every bite count by fueling your body with nutritious foods
+                        that energize and nourish.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="p/normalweight.jpg">
+                <div class="content">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/Obesity.jpg">
+                <div class="content">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/overweigt.jpg">
+                <div class="content">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/underweight.jpg">
+                <div class="content">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="p/healthyfood.jpg">
+                <div class="content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="case">
+        <div class="container">
+            <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+            Your Height (cm):
+            <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
+            Your Weight (kg):
+            <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
+            Your Email:
+            <input type="email" class="input" id="email_id" placeholder="Enter your email">
+            <button class="btn" id="btn">Compute BMI</button>
+            <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+        </div>
+
+        <div class="description">
+            <h2>BMI Categories:</h2>
+            <p>Underweight = 18.5</p>
+            <p>Normal weight = 18.5–24.9</p>
+            <p>Overweight = 25–29.9</p>
+            <p>Obesity = BMI of 30 or greater</p>
+
+            <h1>What Next? Take Action
+                Towards Better Health:</h1>
+            <br>
+            <p>Maintaining a healthy weight is important for your heart health.
+                <br>
+                Learn more about overweight and obesity
+                <br>
+            <h2>Increase Physical Activity</h2>
+            <br>
+
+            Moving more can lower your risk factors for heart disease.
+            <br>
+            Eat a Heart-Healthy Diet
+            <br>
+            <br>
+            Eating a healthy diet is the key to heart disease prevention.
+            <br>
+            <br>
+            Know and Control Your Heart Health Numbers
+            <br>
+            <br>
+            Tracking your heart health stats can help you meet your heart health goals.</p>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+
+
+        <p>Big changes often start with the smallest choices. A piece of fruit instead of a candy bar, a walk around the
+            block instead of scrolling through endless feeds. It's these little victories, day after day, that pave the
+            way to a healthier you. On this website, we celebrate your every step, no matter how big or small. Because
+            your journey matters, and every choice you make deserves a cheer. Let's celebrate health, together.
+        </p>
+        <br>
+        <br>
+        <H3>
+            2023 , Made by Pedrito M Parrilla III ,Cj Refuelo ,Nova Redulla
+        </H3>
+    </footer>
+    <script src="f.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+
+</html>
